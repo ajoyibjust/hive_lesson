@@ -2,8 +2,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hive_lesson/core/error/error_model.dart';
 import 'package:hive_lesson/features/data/repository/products_repository_impl.dart';
-import 'package:hive_lesson/features/presentation/bloc/products_event.dart';
-import 'package:hive_lesson/features/presentation/bloc/products_state.dart';
+import 'package:hive_lesson/features/presentation/blocs/products_bloc/products_event.dart';
+import 'package:hive_lesson/features/presentation/blocs/products_bloc/products_state.dart';
 
 class ProductsBloc extends Bloc<ProductsEvent, ProductsState> {
   final ProductsRepositoryImpl impl;

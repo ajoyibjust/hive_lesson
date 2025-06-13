@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hive_lesson/core/services/dependency_injection_instance.dart';
-import 'package:hive_lesson/features/presentation/bloc/products_bloc.dart';
-import 'package:hive_lesson/features/presentation/bloc/products_event.dart';
-import 'package:hive_lesson/features/presentation/bloc/products_state.dart';
+import 'package:hive_lesson/features/presentation/blocs/products_bloc/products_bloc.dart';
+import 'package:hive_lesson/features/presentation/blocs/products_bloc/products_event.dart';
+import 'package:hive_lesson/features/presentation/blocs/products_bloc/products_state.dart';
 import 'package:hive_lesson/features/presentation/widgets/products.dart';
 
 class HomeBody extends StatelessWidget {

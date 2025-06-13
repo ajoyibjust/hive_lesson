@@ -1,7 +1,7 @@
 import 'package:get_it/get_it.dart';
 import 'package:hive_lesson/core/interceptor/interceptor.dart';
 import 'package:hive_lesson/features/data/repository/products_repository_impl.dart';
-import 'package:hive_lesson/features/presentation/bloc/products_bloc.dart';
+import 'package:hive_lesson/features/presentation/blocs/products_bloc/products_bloc.dart';
 
 final sl = GetIt.instance;
 
